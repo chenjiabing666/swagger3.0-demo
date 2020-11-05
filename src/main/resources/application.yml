@@ -1,0 +1,25 @@
+spring:
+  swagger:
+    front:
+      groupName: 前台管理
+      basePackage: com.example.swaggerdemo.controller
+      title: API的标题
+      description: 这是一条描述
+      contactName: 联系人姓名
+      contactUrl: 联系人网站URL
+      contactEmail: xxxx@163.com
+      version: 2.0
+      enable: true
+    back:
+      groupName: 后台管理
+      basePackage: com.example.swaggerdemo.controller
+      title: API的标题
+      description: 这是一条描述
+      contactName: 联系人姓名
+      contactUrl: 联系人网站URL
+      contactEmail: xxxx@163.com
+      version: 2.0
+      enable: true
+server:
+  servlet:
+    context-path: /demo
